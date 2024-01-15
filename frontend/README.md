@@ -1,3 +1,1 @@
-# Frontend
-
-Next.js
+### 밥버디 frontend
