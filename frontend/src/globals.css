@@ -1,0 +1,22 @@
+/* 모든 css파일은 import를 통해 
+   이곳으로 불러와요*/
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'styles/reset.css';
+@import 'styles/common.css';
+
+:root {
+   background-color: var(--color-white);
+   color: var(--color-black);
+}
+
+body {
+   margin: 100px auto;
+   padding: 16px;
+   width: 540px;
+   height: 960PX;
+   background-color: var(--color-background);
+}
