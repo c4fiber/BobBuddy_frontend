@@ -1,5 +1,6 @@
 import type { Metadata } from 'next'
 import { Inter } from 'next/font/google'
+import '../globals.css'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -16,8 +17,7 @@ export default function RootLayout({
   return (
     <html lang="en">
         <head>
-            {/* app manifest settings */}
-            <meta name='theme-color' content='#4a90e2' />
+            <meta name='theme-color' content='#0097B2;' />
             <link rel='manifest' href='/manifest.json' />
             <link rel='icon' href='/assets/icons/icon-48x48.png' />
             <link rel='apple-touch-icon' href='/assets/icons/icon-192x192.png' />
